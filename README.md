@@ -11,7 +11,17 @@
 
 <br/>
 
-An iOS app that uses token-based authentication. The server side is represented by the repository [Token-Auth-Server-Template](https://github.com/SerhiyButz/Token-Auth-Server-Template.git), which is a Vapor server.
+An iOS app that uses token-based authentication. The server side is represented by the repository [Token-Auth-Server-Template](https://github.com/serhiybutz/Token-Auth-Server-Template.git), which is a Vapor server.
+
+### Features
+
+- User *sign-in form* screen with username+password authentication with the server providing the *authentication token*.
+- *Biometric authentication* included.
+- User *sign-up form* screen.
+- *Validation of form fields*, both *local* and *remote*.
+- *Form navigation* keyboard toolbar.
+- Home page screen with demo of some *client-server-based functionality* like retrieving user’s data and filtering it.
+- *Modular architecture* + *dependency injection container*.
 
 ### How to run
 

@@ -18,10 +18,11 @@ An iOS app that uses token-based authentication. The server side is represented 
 - User *sign-in form* screen with username+password authentication with the server providing the *authentication token*.
 - *Biometric authentication* included.
 - User *sign-up form* screen.
+- Sensitive information (such as an authentication token or user profile) is stored in *Keychain*.
 - *Validation of form fields*, both *local* and *remote*.
 - *Form navigation* keyboard toolbar.
 - Home page screen with demo of some *client-server-based functionality* like retrieving user’s data and filtering it.
-- *Modular architecture* + *dependency injection container*.
+- *Modular architecture* + *MVVM* + *dependency injection container*.
 
 ### How to run
 
